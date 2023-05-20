@@ -1,0 +1,328 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+  margin-right: 100px;
+}
+
+.header {
+  background: #009688;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 117px;
+  max-width: 100%;
+  left: 0;
+  top: 0;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 69px;
+  height: 71px;
+  margin-left: 160px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 0 22px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+
+.secao1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 50%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+ }
+
+
+
+
+
+ h1{
+font-family: Ubuntu;
+font-size: 60px;
+font-weight:700;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+color: #ff4081;
+}
+h5{
+  font-family: Ubuntu;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+h2{
+  font-family: Ubuntu;
+font-size: 35px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #ff4081;
+}
+
+p{
+font-family: Ubuntu;
+font-size: 18px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+button{
+  height: 51px;
+  width: 233px;
+  left: 545px;
+  top: 1199px;
+  border-radius: 62px;
+  color: #FFFFFF ;
+  border: none;
+  background-color: #2E948A;
+
+}
+
+ .pagecurso{
+  width: 90%;
+  margin: 5%;
+ }
+ .educacao{
+  display: flex;
+  padding-bottom: 68px;
+  border-bottom: 5px solid #c4c4c4;
+  margin-top: 68px;
+ }
+ .tres{
+  border: none;
+ }
+ .ilustracao{
+  width: 30%;
+  display: flex;
+ }
+ .ilustracao img{
+  width: 100%;
+ }
+ .textilustra{
+  width: 60%;
+  margin-left: 8%;
+ }
+
+ .btn-outline-sucess{
+  color: #fff;
+  background-color: #2E948A;
+  padding: 5px 8px;
+  border: 1px solid #2E948a;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all .3s ease;
+   }
+
+   btn-outline-sucess:hover{
+    background-color: #47a447;
+    color: #fff;
+   }
+
+   #vis-modal{
+/* border:  2px solid #EEEEEE;
+    padding: 100px; */
+    border-radius: 15px;
+    margin-right: 100px;
+    max-width: 80vw;
+    /* width:150px; */
+   }
+
+   .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; /* on top */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    /* Habilita scroll  */
+    /* overflow: auto;  */
+    /* Fallback color */
+    /* background-color: rgb(0,0,0);  */
+    /* Black w/ opacity */
+    /* background-color: rgba(0,0,0,0.4);  */
+  }
+
+   .conteudo-modal{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 60%; 
+  }
+   
+   
+   .cabecalho-modal{
+    padding: 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #eee 1px;
+
+   }
+
+
+  .cabecalho-modal .cabecalho-modal-fechar{
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .corpo-modal{
+    padding: 1px 8px 8px 8px;
+    
+
+  }
+
+  .corpo-modal img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+} 
+
+  .textoModal{
+    float:right;
+    width:60%;
+    font-size: small;
+  }
+
+  .textoModal p{
+    margin-top:0;
+  }
+  .rodape-modal{
+    border-top: solid #eee 1px;
+    padding: 8px;
+  }
+   
+   
+ 
+    .home {
+      text-decoration: none;
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  left: 930px;
+  top: 47px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  text-transform: uppercase;
+  
+  color: #FDFDFD;
+  }
+  
+
+    /* CURSOS */
+    .cursos {
+        text-decoration: none;
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+    }
+      /* blog */
+    .blog {
+     
+        text-decoration: none;
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    left: 1150px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+    }
+    
+    
+     /* contato */
+    .contato {
+       
+     text-decoration: none;
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 1242px;
+    top: 47px;
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FDFDFD;
+    }
+    
+    .texto-banner{
+    /* Texto Banner */
+    
+    
+    position: absolute;
+    width: 488px;
+    height: 386px;
+    left: 206px;
+    top: 242px;
+    
+    
+    }
+ 
+
